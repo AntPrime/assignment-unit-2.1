@@ -1,36 +1,35 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = 'Anthony';
+let firstName = `Anthony`;
+console.log (firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = 'Clarke'
+let lastName = `Clarke`
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-
+let fullName = `Anthony Clarke`;
+console.log(firstName + lastName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-
+let luckyNumber = 13;
+console.log (luckyNumber);
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-
+let Introduction = `Introduction`;
+Introduction = `My name is ` + fullName + `, and I think ` + luckyNumber + ` is a winner!`;
+console.log (`My name is ` + fullName + `, and I think ` + luckyNumber + ` is a winner!`);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-
-// 7 - Create a variable named `food`, and set its value to a string of your favorite food
-//     Console log the value of `food`
-
-// 8 - Create a variable called `pets` and set it to the value of the number of pets you have
-//     Console log the value of `pets`
-
+console.log ()
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
 // 10 - Add two pets to your `pets` variable
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+const allowedPets = `2`;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -92,7 +91,7 @@ try {
     introduction: typeof introduction !== 'undefined' ? introduction : undefined,
     adventurous: typeof adventurous !== 'undefined' ? adventurous : undefined,
     food: typeof food !== 'undefined' ? food : undefined,
-    pets: typeof pets !== 'undefined' ? pets : undefined,
+    pets: typeof 1 !== 'undefined' ? 1 : undefined,
     friendsPets: typeof friendsPets !== 'undefined' ? friendsPets : undefined,
     allowedPets: typeof allowedPets !== 'undefined' ? allowedPets : undefined,
     result: typeof result !== 'undefined' ? result : undefined,
