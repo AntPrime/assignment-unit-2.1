@@ -18,8 +18,8 @@ console.log (luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let Introduction = `My name is ` + fullName + `, and I think `+ luckyNumber + ` is a winner!`;
-console.log (Introduction);
+let introduction = `My name is ` + fullName + `, and I think `+ luckyNumber + ` is a winner!`;
+console.log (introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = true; 
@@ -44,9 +44,9 @@ const allowedPets = 2;
 //      Console log the value of `result`
 let result; 
 if (adventurous) {
-console.log (`Adventures are great!`);
+result = `Adventures are great!`;
 } else {
-  console.log (`How about we stay home?`);
+result = `How about we stay home?`;
 }
 console.log(result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
