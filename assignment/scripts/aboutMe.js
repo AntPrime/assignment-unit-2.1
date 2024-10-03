@@ -19,7 +19,7 @@ console.log (luckyNumber);
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 let Introduction = `My name is ` + fullName + `, and I think `+ luckyNumber + ` is a winner!`;
-console.log (`Introduction`)
+console.log (Introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = true; 
@@ -56,7 +56,7 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll = `Try again later.`; if (luckyNumber === 2 && adventurous)
 diceRoll = `Roll the dice!`;
-console.log (`diceRoll`)
+console.log (`diceRoll`);
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -65,8 +65,16 @@ console.log (`diceRoll`)
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
-
+let petStatus;
+if (pets < allowedPets){
+  petStatus = `I can have more pets`;
+}
+else if (pets === allowedPets){
+petStatus = `I have enough pets`;
+}
+else if (pets > allowedPets){
+  petStatus = `Oh no, I have too many pets!`;
+}
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
